@@ -1,0 +1,47 @@
+----- Comandos linux -----
+
+echo = printar algo na tela
+	echo "Bem vido" > bemVindo.txt
+cat = ler arquivo
+	cat arquivo*.txt = qualquer coisa que comece com "arquivo" e termine com ".txt"
+	cat arquivo?.txt = qualquer caractere que comece "com arquivo" e termine com ".txt"
+pwd = ver o diretório atual
+grep = procurar arquivos
+whoiam = ver o nome usuário
+ls  = listagem de diretórios e arquivos
+ls -a = lista todos os diretório
+ll = lista todos os diretório
+lshw =  listar sobre o hardware
+mkdir = criar diretório
+rmdir = remover diretório 
+rm = remover arquivo
+rm -r (nome do arquivo) = remover recrusivamente (todos os arquivos dentro do diretório)
+cp -r (nome do arquivo que será copiado ) (nome do arquivo novo)  = copiar recursivamente os arquivos dos diretórios
+zip (nome do novo arquivo) (nome do arquivo)
+zim -r (nome do novo arquivo) (nome do diretório)
+unzip -l work.zip = decompactando e listando os arquivos de "work"
+date = hora , dia/mês/ano 
+touch (nome do arquivo) = enconstar no arquivo
+head (nome do arquivo) = início do arquivo 
+tail (nome do arquivo) = final do arquivo
+
+----- Comandos VI -----
+
+gg = vai para o inicio do arquivo
+G = vai para o final do arquivo
+30G = vai para  a linha 30
+"/(alguma palavra)" = pesquisa em todo o arquivo essa palavra
+n = recorrência posterior da palavra pesquisada
+N = recorrência da palavra anterior
+y = cópia atual da linha
+(linhas a serem copiadas)yy = copiar "número de linhas" linhas
+p = colar
+(número de linhas)p = colar "número de linhas" linhas 
+
+
+
+
+
+
+
+
