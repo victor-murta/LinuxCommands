@@ -1,0 +1,19 @@
+ps = arquivos sendo executados do terminal (especificamente daquele)
+ps -e = todos os arquivos do S.O. sendo executados
+kill (PID) = cada processo tem um id, assim você finalizará essa execução | Ao abrir novamente o software ele tenta restaurar os processos antigos
+ps -9 (PID) = finaliza o processo
+ps -ef = arquivos + dados 
+ps -ef | grep vim = pegar todos os "vim" listados 
+
+
+
+
+
+
+
+
+
+
+
+
+
