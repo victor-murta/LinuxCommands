@@ -1,9 +1,50 @@
 ps = arquivos sendo executados do terminal (especificamente daquele)
 ps -e = todos os arquivos do S.O. sendo executados
 kill (PID) = cada processo tem um id, assim você finalizará essa execução | Ao abrir novamente o software ele tenta restaurar os processos antigos
-ps -9 (PID) = finaliza o processo
+kill -9 (PID) = finaliza o processo ( "-9" = garatir que o processo seja encerrado )
+killall -9 vim = encerra todos os processos vim
 ps -ef = arquivos + dados 
 ps -ef | grep vim = pegar todos os "vim" listados 
+top = consumo de CPU dos processos
+ps -ef | grep vim = retorna todos os processos "vim" 
+pstree = outra forma de ver seus processos
+htop = ver processos com gráficos
+
+^Z (ctrl + z) = para seu processo no background caso você rode um software pelo terminal
+jobs = mostra os processos stopados do respectivo bash
+bg (ID) = número do processo ; serve para rodar em background o processor e destravar o terminal
+fg (id) = deixar em foreground (vai voltar a travar o terminal)
+gedit & = "&" deixa o programa rodar em bg ; gedit é uma ferramenta de edição de txt
+
+vim dorme = criando um programa executável (x)
+sh dorme = executando o programa
+chmod = alteração de permissões
+	r = read
+	w = write
+	x = execute
+ll = mostra mais detalhado os arquivos
+ex.) 
+usuário		grupo		qualquer outra pessoa
+rwx		rwx		---
+				r--
+
+
+
+chmod +x dorme = adicionando "x"(execute) para o usuário atual, para o grupo e para qualquer outro usuário
+chmod -x dorme = retirando essa permissão
+./dorme = passando a rota do programa ele irá executar (caso ele seja executável)
+
+locate (nome do arquivo)= localizar um arquivo ; é bem rápido esse comando, porque ele puxa do database da máquina esses dados
+sudo = executár comando como usuário principal(root)
+sudo updatadb = atualizar o db da máquina 
+
+which (nome do programa) = mostra onde está o programa para eu executar ele
+
+
+passwd = alterar sua senha 
+sudo passwd = alterar a senha do root
+su (nome de outro usuário) = alterando usuário
+
 
 
 
